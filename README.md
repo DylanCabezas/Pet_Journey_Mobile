@@ -1,50 +1,55 @@
-# Welcome to your Expo app 👋
+# PetJourney Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**PetJourney** es una aplicación móvil diseñada para conectar usuarios y cuidadores de mascotas, asegurando una experiencia de transporte y cuidado segura y confiable para las mascotas. Esta app ofrece funcionalidades tanto para **usuarios** que buscan cuidar o encontrar cuidadores para sus mascotas, como para **cuidadores** que ofrecen servicios de cuidado para mascotas.
 
-## Get started
+---
 
-1. Install dependencies
+## Índice
 
-   ```bash
-   npm install
-   ```
+- [Descripción del Proyecto](#descripción-del-proyecto)
+- [Funcionalidades](#funcionalidades)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Navegación](#navegación)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Instalación](#instalación)
+- [Contribuciones](#contribuciones)
+- [Licencia](#licencia)
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## Descripción del Proyecto
 
-In the output, you'll find options to open the app in a
+PetJourney es una aplicación que facilita la conexión entre **usuarios** y **cuidadores de mascotas**. Los usuarios pueden crear un perfil, gestionar sus mascotas y encontrar cuidadores cercanos. Por otro lado, los cuidadores pueden registrarse, completar su perfil y ofrecer sus servicios de cuidado a mascotas cercanas.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+La app se enfoca en la seguridad, privacidad y facilidad de uso, especialmente para un público de todas las edades. A través de una interfaz simple, el usuario puede interactuar con las principales funcionalidades de la app, como la creación de un perfil, la gestión de mascotas, la visualización de blogs y la búsqueda de cuidadores en el mapa.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Funcionalidades
 
-When you're ready, run:
+### Registro y Login
+- Los usuarios deben registrarse con su **nombre de usuario**, **correo electrónico** y **contraseña**.
+- Pueden elegir entre dos roles: **Usuario** o **Cuidador**.
+- Tras el registro, los usuarios pueden iniciar sesión para acceder a sus perfiles.
 
-```bash
-npm run reset-project
-```
+### Perfiles de Usuario y Cuidador
+- Los usuarios y cuidadores completan su perfil personal con datos como nombre, dirección, y foto.
+- Los cuidadores pueden ofrecer servicios de cuidado de mascotas, y los usuarios pueden ver cuidadores cercanos en el mapa.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Creación y Gestión de Mascotas
+- Los usuarios pueden registrar y gestionar sus mascotas desde la app.
+- La app incluye la opción de agregar mascotas perdidas para recibir ayuda de la comunidad.
 
-## Learn more
+### Blogs
+- Los usuarios y cuidadores pueden acceder a publicaciones sobre el cuidado de mascotas y consejos.
+- Los usuarios pueden crear publicaciones en el blog.
 
-To learn more about developing your project with Expo, look at the following resources:
+### Mapa
+- Los usuarios pueden ver los cuidadores cercanos en el mapa, mientras que los cuidadores pueden ver los usuarios cercanos.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## Estructura del Proyecto
 
-Join our community of developers creating universal apps.
+La estructura del proyecto se organiza en varios módulos que permiten el desarrollo eficiente de la aplicación, con un enfoque en la navegación y la gestión de usuarios. A continuación se describe la arquitectura general:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
